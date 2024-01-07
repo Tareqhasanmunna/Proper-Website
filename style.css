@@ -1,21 +1,22 @@
 body {
-    margin: 0;
     font-family: 'Dancing Script', cursive;
     font-family: 'PT Sans', sans-serif;
     font-family: 'Varela Round', sans-serif;
-    background-color: #0F1035;
+    margin: 0% auto;
+    background-color: #DCF2F1;
 }
 .hero{
     margin: 0;
-    color: #0F1035;
-    background-color: #DCF2F1;
+    color: #DCF2F1;
+    background-image: linear-gradient(to bottom right,#0F1035,#365486,#0F1035);
     padding: 50px;
 }
 .hero_brief{
     line-height: 1.6;
 }
 .navbar {
-    background-color: #DCF2F1;
+    margin: 0;
+    background-color: #0F1035;
     overflow: hidden;
 }
 .nav_left{
@@ -23,7 +24,7 @@ body {
 }
 .brand{
     display: block;
-    color: #0F1035;
+    color: #7FC7D9;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -45,78 +46,100 @@ body {
 
 .navbar a {
     display: block;
-    color: #0F1035;
+    color: #7FC7D9;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .navbar a:hover {
-    background-color: #DCF2F1;
+    background-color: #0F1035;
     color: #365486;
     ;
 }
 .quote{
+    margin: 0 auto;
     color: #DCF2F1;
-    background-color: #365486;
+    background-image: linear-gradient(to right,#365486,#0F1035);
     padding: 20px;
+    text-align: center;
+}
+.agenda{
+    margin: 0 auto;
+    color: #0F1035;
+    background-color: #DCF2F1;
+    padding: 50px;
+    line-height: 1.6;
+}
+.getstarted{
+    margin: 0 auto;
+    color: #0F1035;
+    background-color: #DCF2F1;
+    padding: 50px;
+    line-height: 1.6;
+}
+.getstarted button{
     text-align: center;
 }
 .promotions-container{
-    background-color: #DCF2F1;
+    background-image: linear-gradient(to bottom right,#0F1035,#365486,#0F1035);
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
-    max-width: auto;
-    margin: 0 auto;
-}
-
-.promotion{
-    flex: 0 0 calc(32% - 10px);
-    margin: 10px;
-    padding: 50px;
-
-}
-.contact-section {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     
-    max-width: 600px;
     margin: 0 auto;
 }
-form {
-    padding: 50px;
-    width: 250px;
-    color: #DCF2F1;
-    display: grid;
-    grid-gap: 10px;
-}
 
-label {
-    color: #DCF2F1;
-}
-
-textarea {
-    resize: vertical;
-}
-
-button {
+.promotion1{
+    flex-grow: 1;
+    text-align: center;
+    font-size: small;
+    color: #7FC7D9;
+    margin: 0;
     padding: 10px;
-    width: 150px;
-    background-color:#7FC7D9 ;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+
+}
+.promotion2{
+    flex-grow: 1;
+    text-align: center;
+    font-size: small;
+    color: #7FC7D9;
+    margin: 0;
+    padding: 10px;
+}
+.promotion3{
+    flex-grow: 1;
+    text-align: center;
+    font-size: small;
+    color: #7FC7D9;
+    margin: 0;
+    padding: 10px;
+}
+.get-started-button{
     font-family: 'PT Sans', sans-serif;
     font-family: 'Varela Round', sans-serif;
-    
-}
-
-button:hover {
-    background-color: #365486;
-    
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #7FC7D9;
+    border-radius: 5px;
 }
 .footer{
+    font-size: smaller;
     color: #0F1035;
     background-color: #7FC7D9;
     text-align: center;
-    padding: 20px;
+    padding: 1px;
+    height: fit-content;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background: #DCF2F1;
+}
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(to bottom,#7FC7D9,#0F1035);
 }

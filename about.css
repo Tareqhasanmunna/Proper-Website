@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #DCF2F1;
+    overflow-x: hidden;
+}
+.navbar {
+    background-color: #0F1035;
+    overflow: hidden;
+}
+.nav_left{
+    float: left;
+}
+.brand{
+    display: block;
+    color: #7FC7D9;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.nav_right{
+    float: right;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: #7FC7D9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #0F1035;
+    color: #365486;
+    ;
+}

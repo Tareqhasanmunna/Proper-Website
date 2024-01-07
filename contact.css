@@ -1,0 +1,116 @@
+body{
+    background-image: linear-gradient(to bottom right,#0F1035,#365486,#0F1035);
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    overflow: hidden;
+}
+.navbar {
+    background-color: #0F1035;
+    overflow: hidden;
+}
+.nav_left{
+    float: left;
+}
+.brand{
+    display: block;
+    color: #7FC7D9;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.nav_right{
+    float: right;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: #DCF2F1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #365486;
+}
+.brand{
+    display: block;
+    color: #7FC7D9;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.contact{
+    color: #DCF2F1;
+    text-align: center;
+    padding: 50px;
+
+    
+}
+.contact form{
+    margin: 0 auto;
+    background: rgb(127, 199, 217,0.1);
+    backdrop-filter: blur(10px);
+    padding: 50px 70px;
+    border-radius: 10px;
+    width: 600px;
+    margin-bottom: 30px;
+}
+.contact label{
+    color: #DCF2F1;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+.contact input{
+    background-color: #DCF2F1;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+.contact textarea{
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #DCF2F1;
+    width: 500px;
+    border-radius: 5px;
+    border: none;
+}
+.contact button{
+    padding: 10px;
+    width: 150px;
+    background-color:#7FC7D9 ;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+.contact button:hover {
+    background-color: #0F1035;  
+}
+.footer{
+    padding: 20px;
+    margin: 0 auto;
+    font-size: smaller;
+    color: #DCF2F1;
+    text-align: center;
+    height: fit-content;
+}
